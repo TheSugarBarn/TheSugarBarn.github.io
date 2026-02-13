@@ -35,7 +35,6 @@
       font-size: 40px;
     }
 
-    /* TAGLINE STYLE */
     .tagline {
       font-size: 20px;
       max-width: 700px;
@@ -59,7 +58,8 @@
       text-align: center;
     }
 
-    .services {
+    /* PRODUCTS SECTION */
+    .products {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -71,6 +71,14 @@
       padding: 20px;
       width: 250px;
       border-radius: 8px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 15px;
     }
 
     footer {
@@ -103,7 +111,7 @@
         padding: 0 10px;
       }
 
-      .services {
+      .products {
         flex-direction: column;
         align-items: center;
       }
@@ -130,22 +138,25 @@
 </header>
 
 <section>
-  <h2>Our Services</h2>
+  <h2>Our Products</h2>
 
-  <div class="services">
+  <div class="products">
     <div class="card">
-      <h3>Service 1</h3>
-      <p>Short description of service.</p>
+      <img src="sweet1.jpg" alt="Traditional Sweets">
+      <h3>Traditional Sweets</h3>
+      <p>Handcrafted traditional sweets made with authentic recipes.</p>
     </div>
 
     <div class="card">
-      <h3>Service 2</h3>
-      <p>Short description of service.</p>
+      <img src="sweet2.jpg" alt="Gift Boxes">
+      <h3>Gift Boxes</h3>
+      <p>Beautifully arranged sweet boxes perfect for special occasions.</p>
     </div>
 
     <div class="card">
-      <h3>Service 3</h3>
-      <p>Short description of service.</p>
+      <img src="sweet3.jpg" alt="Fresh Treats">
+      <h3>Fresh Treats</h3>
+      <p>Freshly prepared treats made daily with premium ingredients.</p>
     </div>
   </div>
 </section>
@@ -169,4 +180,3 @@
 
 </body>
 </html>
-
